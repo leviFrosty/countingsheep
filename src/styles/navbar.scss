@@ -1,0 +1,30 @@
+.navbar {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__container {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1040px;
+  padding: 0 1.5rem;
+}
+
+.navbar-start {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  justify-content: space-evenly;
+}
+
+.navbar__logo {
+  padding: 0 2rem;
+  background: violet;
+  i {
+    color: purple;
+  }
+}
