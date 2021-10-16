@@ -9,7 +9,7 @@ function NavBar() {
         <div className="navbar-start">
           <div className="navbar__logo">
             <Link to="/">
-              <i class="fas fa-fire-alt"></i>
+              <i className="fas fa-fire-alt"></i>
             </Link>
           </div>
           <nav className="navbar-nav">
